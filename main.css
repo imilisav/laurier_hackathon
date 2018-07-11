@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    /* #FIXME must download this image off the internet */
+    background-image: url("https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/29/294/294444/1-o.jpg?1420807091");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.gold-text {
+    color: #F2A900;
+}
+
+.purple-text {
+    color: #330072;
+}
+
+.mauve-text {
+    color: #A05EB5;
+}
+
+.red-text {
+    color: #EE2737;
+}
+
+.btn-primary {
+    border: none;
+    color: white;
+    background-color: #330072;
+    width: 18rem;
+    height: 48px;
+    margin-left: 1rem;
+}
+
+.btn-primary:hover {
+    border: 2px solid #330072;
+    background-color: transparent;
+    color: #330072;
+}
+
+#landing-location-collection {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#landing-location-collection h3, h4 {
+    margin: 0;
+}
+
+#landing-button-collection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-10rem, 0);
+}
+
+#landing-button-collection button:last-of-type {
+    margin-top: 1rem;
+}
+
+footer {
+    position: absolute;
+    left: 50%;
+    bottom: 1rem;
+    transform: translate(-50%, 0);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 630px) {
+    body {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
