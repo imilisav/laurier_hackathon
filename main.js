@@ -1,5 +1,16 @@
 $(document).ready(function(){
+    // mailing list subscription
     $( "#btn-mailing-list" ).click(function() {
-        window.location.replace("https://goo.gl/forms/0JoZKRm4PpPh7ff33");
+        window.open("https://goo.gl/forms/0JoZKRm4PpPh7ff33", "_blank");
+    });
+
+    // Contact form for hackers
+    $( "#btn-hacker-contact" ).click(function() {
+        window.open("https://goo.gl/forms/5FcIroh8BfhgmYiA2", "_blank");
+    });
+
+    // Contact form for hackers
+    $( "#btn-sponsor-contact" ).click(function() {
+        window.open("https://goo.gl/forms/cPAT2yrtuND7CpDl2", "_blank");
     });
 })
