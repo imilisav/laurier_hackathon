@@ -9,8 +9,13 @@ $(document).ready(function(){
         window.open("https://goo.gl/forms/5FcIroh8BfhgmYiA2", "_blank");
     });
 
-    // Contact form for hackers
+    // Contact form for sponsors
     $( "#btn-sponsor-contact" ).click(function() {
         window.open("https://goo.gl/forms/cPAT2yrtuND7CpDl2", "_blank");
+    });
+
+    // Sponsor Package
+    $( "#btn-sponsor-package" ).click(function() {
+        window.open("Title_Sponsor_Package.pdf", "_blank");
     });
 })
