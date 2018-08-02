@@ -14,8 +14,13 @@ $(document).ready(function(){
         window.open("https://goo.gl/forms/cPAT2yrtuND7CpDl2", "_blank");
     });
 
+    // Title Sponsor Package
+    $( "#btn-title-sponsor-package" ).click(function() {
+        window.open("Title_Sponsor_Package.pdf", "_blank");
+    });
+
     // Sponsor Package
     $( "#btn-sponsor-package" ).click(function() {
-        window.open("Title_Sponsor_Package.pdf", "_blank");
+        window.open("General_Sponsorship_Package.pdf", "_blank");
     });
 })
